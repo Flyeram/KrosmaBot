@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 import random
+import copy
 
 description = ''' A bot for the Krosmaga Discord Server. Nice features incoming !'''
 bot = commands.Bot(command_prefix='?', description=description)
@@ -13,8 +14,26 @@ async def on_ready():
     print(bot.user.id)
     print('------')
 
+@bot.event
+async def on_member_join(member):
+    servers = list(bot.servers)
+    if (member.server.name == "Krosmaga Communaute FR"):
+        roles = member.server.roles
+        for i in range(len(roles)):
+            if (roles[i].name == "Krosmagien"):
+                role = roles[i]
+        await bot.add_roles(member, role)
+
+@bot.command()
+async def test():
+    """ Commande pour quand il y a besoin de tester des trucs, inutiles donc pour vous desole"""
+    await bot.say("Commande de test disable")
+
+
 @bot.command(pass_context=True)
 async def card(ctx, *, card_name : str):
+    """ Link la carte passe en parametre
+    pour les infinites il faut rajouter 2 ou 3 derriere le nom pour les autre formes"""
     card_name_lower = card_name.lower();
     card_path = "./Cards/" + card_name_lower.replace(" ", "_") + ".png";
     try:
