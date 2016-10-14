@@ -37,7 +37,6 @@ async def card(ctx, *, card_name : str):
     card_name_lower = card_name.lower();
     card_name_replace = card_name_lower.replace(" ", "_")
     test_infinite = card_name_replace[-2:]
-    print(test_infinite)
     if test_infinite in ["_1", "_2", "_3"]:
         card_path = "./Cards/" + card_name_replace.replace(test_infinite, "_niveau" + test_infinite) + ".png";
     else:
