@@ -33,14 +33,13 @@ async def test():
 @bot.command(pass_context=True)
 async def card(ctx, *, card_name : str):
     """ Link la carte passe en parametre
-    pour les infinites il faut rajouter 2 ou 3 derriere le nom pour les autre formes"""
+    pour les infinites il faut rajouter 1, 2 ou 3 derriere le nom pour les formes"""
     card_name_lower = card_name.lower();
     card_name_replace = card_name_lower.replace(" ", "_")
     test_infinite = card_name_replace[-2:]
     print(test_infinite)
     if test_infinite in ["_1", "_2", "_3"]:
         card_path = "./Cards/" + card_name_replace.replace(test_infinite, "_niveau" + test_infinite) + ".png";
-        print(card_path)
     else:
         card_path = "./Cards/" + card_name_replace + ".png";
     try:
