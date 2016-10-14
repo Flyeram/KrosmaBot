@@ -3,6 +3,7 @@ from discord.ext import commands
 import asyncio
 import random
 import copy
+import time
 
 description = ''' A bot for the Krosmaga Discord Server. Nice features incoming !'''
 bot = commands.Bot(command_prefix='?', description=description)
@@ -42,9 +43,14 @@ async def card(ctx, *, card_name : str):
     else:
         card_path = "./Cards/" + card_name_replace + ".png";
     try:
-        await bot.send_file(ctx.message.channel , card_path)
+        await bot.delete_message(ctx.message)
+        msg = await bot.send_file(ctx.message.channel , card_path)
+        await asyncio.sleep(10)
+        await bot.delete_message(msg)
     except FileNotFoundError:
-       await bot.say("Oups cette carte n'existe pas")
+        msg = await bot.send_message(ctx.message.channel, "Oups cette carte n'existe pas")
+        await asyncio.sleep(3)
+        await bot.delete_message(msg)
 
 @bot.command()
 async def roll(dice : str):
