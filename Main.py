@@ -4,6 +4,9 @@ import asyncio
 import random
 import copy
 import time
+import requests
+import shutil
+import os
 
 description = ''' A bot for the Krosmaga Discord Server. Nice features incoming !'''
 bot = commands.Bot(command_prefix='?', description=description)
@@ -28,9 +31,9 @@ async def on_member_join(member):
 @bot.command()
 async def test():
     """ Commande pour quand il y a besoin de tester des trucs, inutiles donc pour vous desole"""
-    await bot.say("Commande de test disable")
-
-
+#await bot.say("Commande de test disable")
+    
+    
 @bot.command(pass_context=True)
 async def card(ctx, *, card_name : str):
     """ Link la carte passe en parametre
@@ -39,13 +42,19 @@ async def card(ctx, *, card_name : str):
     card_name_replace = card_name_lower.replace(" ", "_")
     test_infinite = card_name_replace[-2:]
     if test_infinite in ["_1", "_2", "_3"]:
-        card_path = "./Cards/" + card_name_replace.replace(test_infinite, "_niveau" + test_infinite) + ".png";
+        card_path = card_name_replace.replace(test_infinite, "_niveau" + test_infinite) + ".png";
     else:
-        card_path = "./Cards/" + card_name_replace + ".png";
+        card_path = card_name_replace + ".png";
     try:
+        r = requests.get("http://vps326325.ovh.net/Cards/" + card_path, stream=True)
+        if r.status_code == 200:
+            with open("./tmp.png", 'wb') as f:
+                r.raw.decode_content = True
+                shutil.copyfileobj(r.raw, f)
         await bot.delete_message(ctx.message)
-        msg = await bot.send_file(ctx.message.channel , card_path)
-        await asyncio.sleep(10)
+        msg = await bot.send_file(ctx.message.channel , "./tmp.png")
+        os.remove("./tmp.png")
+        await asyncio.sleep(60)
         await bot.delete_message(msg)
     except FileNotFoundError:
         msg = await bot.send_message(ctx.message.channel, "Oups cette carte n'existe pas")
