@@ -22,7 +22,7 @@ async def on_ready():
 async def on_member_join(member):
     print("member joined")
     servers = list(bot.servers)
-    if (member.server.name == "Krosmaga Communaute FR"):
+    if (member.server.name == "Krosmaga Communaute"):
         print("joined Krosmaga")
         roles = member.server.roles
         for i in range(len(roles)):
