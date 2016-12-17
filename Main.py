@@ -20,10 +20,8 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    print("member joined")
     servers = list(bot.servers)
     if (member.server.name == "Krosmaga Communaute"):
-        print("joined Krosmaga")
         roles = member.server.roles
         for i in range(len(roles)):
             if (roles[i].name == "Krosmage"):
@@ -73,6 +71,10 @@ async def roll(dice : str):
         await bot.say('Format has to be in NdN!')
         return
 
+    if (limit > 9999):
+        limit = 9999
+    if (rolls > 50):
+        rolls = 50
     result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
     await bot.say(result)
 
