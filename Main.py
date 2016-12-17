@@ -70,6 +70,10 @@ async def roll(dice : str):
         await bot.say('Format has to be in NdN!')
         return
 
+    if (limit > 9999):
+        limit = 9999
+    if (rolls > 50):
+        rolls = 50
     result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
     await bot.say(result)
 
