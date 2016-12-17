@@ -20,11 +20,14 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
+    print("member joined")
     servers = list(bot.servers)
     if (member.server.name == "Krosmaga Communaute FR"):
+        print("joined Krosmaga")
         roles = member.server.roles
         for i in range(len(roles)):
             if (roles[i].name == "Krosmagien"):
+                print("Krosmagien found")
                 role = roles[i]
         await bot.add_roles(member, role)
 
