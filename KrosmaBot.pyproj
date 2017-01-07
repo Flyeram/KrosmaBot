@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{c4dacd60-d9c9-4214-b674-826d1d1c3f2a}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Main.py</StartupFile>
+    <StartupFile>script_card_rename.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
