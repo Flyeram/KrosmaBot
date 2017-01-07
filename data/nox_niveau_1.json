@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 332,
+  "Name": "nox_niveau_1",
+  "CardType": 0,
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Noximilien l'Horloger",
+    "DescFR": "<b>MORT :</b> Ajoute 2 <b>PA</b>\r\nà votre <b>réserve</b>.",
+    "NameEN": "Noximilian the Clockmaker",
+    "DescEN": "<b>DEATH:</b> Add 2 <b>AP</b>\r\nto your <b>reserve</b>.",
+    "NameES": "Noximiliano, el Relojero",
+    "DescES": "<b>MUERTE:</b> Añade 2 <b>PA</b>\r\na tu <b>reserva</b>."
+  }
+}

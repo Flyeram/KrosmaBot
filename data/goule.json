@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 158,
+  "Name": "goule",
+  "CardType": 0,
+  "CostAP": 2,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 1,
+  "Families": [
+    21
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Goule",
+    "DescFR": "<b>CONTRE COUP :</b>\nSe <b>téléporte</b> de 3 cases vers l'avant.",
+    "NameEN": "Ghoul",
+    "DescEN": "<b>COUNTERATTACK:</b>\n<b>TELEPORTS</b> 3 cells forward.",
+    "NameES": "Ghul",
+    "DescES": "<b>VENGANZA:</b>\nSe <b>teletransporta</b> 3 casillas hacia delante."
+  }
+}

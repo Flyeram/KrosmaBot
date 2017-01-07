@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 20,
+  "Name": "sphincter_cell",
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    19
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sphincter Cell",
+    "DescFR": "<b>COUP DE GRÂCE :</b>\nRécupérez le dernier Rat parti dans votre défausse.\r",
+    "NameEN": "Sphincter Cell",
+    "DescEN": "<b>FINAL BLOW:</b>\nRetrieve the last Rat that went to your discard pile.\n",
+    "NameES": "Sfinter Cell",
+    "DescES": "<b>GOLPE DE GRACIA:</b>\nRecuperas la última rata enviada a tu descarte.\n"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 123,
+  "Name": "moogrr",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    39
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Moogrr",
+    "DescFR": "<b>APPARITION :</b>\n<b>Charge</b> de 2 cases si vous avez une Moogrr en jeu.",
+    "NameEN": "Moogrr",
+    "DescEN": "<b>APPEARANCE:</b>\n<b>Charges</b> 2 cells if you have a Moogrr in play.",
+    "NameES": "Muuugresa",
+    "DescES": "<b>APARICIÓN:</b>\n<b>Carga</b> 2 casillas si tienes una muuugresa en juego."
+  }
+}

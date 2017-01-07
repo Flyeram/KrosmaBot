@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 14,
+  "Name": "raymond_garden",
+  "CardType": 0,
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    27
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Raymond Garden",
+    "DescFR": "<b>APPARITION :</b>\nDonne +1 <b>AR</b> à vos autres invocations.\r",
+    "NameEN": "Grim Preacher",
+    "DescEN": "<b>APPEARANCE:</b>\nGives +1 <b>AR</b> to your other Summons.\n",
+    "NameES": "Juanpi Ylsen",
+    "DescES": "<b>APARICIÓN:</b>\nDa +1 <b>AR</b> a tus demás invocaciones.\n"
+  }
+}

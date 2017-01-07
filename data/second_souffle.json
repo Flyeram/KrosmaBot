@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 1288,
+  "Name": "second_souffle",
+  "CardType": 1,
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 6,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Second Souffle",
+    "DescFR": "Récupérez 2 cartes de votre défausse et défaussez les 4 premières cartes de votre pioche.",
+    "NameEN": "Second Wind",
+    "DescEN": "Retrieve 2 cards from your discard pile and discard the first 4 cards of your deck.",
+    "NameES": "Segundo Soplido",
+    "DescES": "Recuperas 2 cartas de tu descarte y descartas las 4 primeras cartas de tu mazo."
+  }
+}

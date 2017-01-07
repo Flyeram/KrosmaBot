@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 95,
+  "Name": "tofu_ventripotent",
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 2,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tofu Ventripotent",
+    "DescFR": "Gagne +1 <b>AR</b> lorsqu'un de vos Tofus est invoqué.",
+    "NameEN": "Tofurby",
+    "DescEN": "Gains +1 <b>AR</b> when one of your Tofus is summoned.",
+    "NameES": "Tofu gordinflón",
+    "DescES": "Gana +1 <b>AR</b> cuando invocas uno de tus tofus."
+  }
+}

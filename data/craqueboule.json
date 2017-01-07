@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 176,
+  "Name": "craqueboule",
+  "CardType": 0,
+  "CostAP": 3,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 2,
+  "Families": [
+    22
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Craqueboule",
+    "DescFR": "<b>RÉSISTANCE :</b> 1",
+    "NameEN": "Crackrock",
+    "DescEN": "<b>RESISTANCE:</b> 1\n",
+    "NameES": "Crujibola",
+    "DescES": "<b>RESISTENCIA:</b> 1\n"
+  }
+}

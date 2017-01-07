@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 552,
+  "Name": "maitre_chuchoku",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    31
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Maître Chuchoku",
+    "DescFR": "<b>APPARITION :</b>\nDonne <b>bouclier</b> à une invocation.",
+    "NameEN": "Master Shhhudoku",
+    "DescEN": "<b>APPEARANCE:</b>\nGives <b>SHIELD</b> to a Summons.",
+    "NameES": "Susurrón I",
+    "DescES": "<b>APARICIÓN:</b>\nDa un <b>escudo</b> a una invocación."
+  }
+}

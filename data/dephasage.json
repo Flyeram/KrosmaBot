@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 227,
+  "Name": "dephasage",
+  "CardType": 1,
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 3,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Déphasage",
+    "DescFR": "Confère <b>inciblable</b>\r\nà une invocation.\r",
+    "NameEN": "Phase Difference",
+    "DescEN": "Confers <b>UNTARGETABLE</b>\r\non a Summons.\n",
+    "NameES": "Desfase",
+    "DescES": "Otorga <b>escurridizo</b>\r\na una invocación.\n"
+  }
+}

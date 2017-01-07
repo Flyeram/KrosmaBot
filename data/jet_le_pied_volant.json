@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 434,
+  "Name": "jet_le_pied_volant",
+  "CardType": 0,
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 8,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Jet le Pied Volant",
+    "DescFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases que vous avez d'invocations blessées.",
+    "NameEN": "Jet the Flying Foot",
+    "DescEN": "<b>APPEARANCE:</b>\nCharges as many cells as you have injured Summons.",
+    "NameES": "Chan Jicky",
+    "DescES": "<b>APARICIÓN:</b>\nCarga el número de casillas equivalente al número de invocaciones heridas."
+  }
+}

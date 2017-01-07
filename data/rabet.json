@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 219,
+  "Name": "rabet",
+  "CardType": 0,
+  "CostAP": 3,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    47
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Rabet",
+    "DescFR": "<b>CONTRE COUP :</b>\nPiochez 1 carte.\r",
+    "NameEN": "Barry",
+    "DescEN": "<b>COUNTERATTACK:</b>\nDraw 1 card.\n",
+    "NameES": "Rabet",
+    "DescES": "<b>VENGANZA:</b>\nRobas 1 carta.\n"
+  }
+}

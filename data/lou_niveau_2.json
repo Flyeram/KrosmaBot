@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 343,
+  "Name": "lou_niveau_2",
+  "CardType": 0,
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    44
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Lou",
+    "DescFR": "<b>APPARITION :</b>\nRécupérez un prisme.",
+    "NameEN": "Lou",
+    "DescEN": "<b>APPEARANCE:</b>\nPicks up a Prism.",
+    "NameES": "Lu",
+    "DescES": "<b>APARICIÓN:</b>\nConsigues un prisma."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 137,
+  "Name": "appel_a_la_baston",
+  "CardType": 1,
+  "CostAP": 7,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 1,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Appel à la Baston",
+    "DescFR": "Piochez 4 cartes.\r\nGardez les invocations et défaussez les autres.",
+    "NameEN": "Call to Brawl",
+    "DescEN": "Draw 4 cards.\r\nKeep the Summons and discard any others.",
+    "NameES": "Toque de Refriega",
+    "DescES": "Robas 4 cartas.\r\nConservas las invocaciones y descartas las otras."
+  }
+}

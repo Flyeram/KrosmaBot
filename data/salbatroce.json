@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 364,
+  "Name": "salbatroce",
+  "CardType": 0,
+  "CostAP": 3,
+  "Life": 1,
+  "Attack": 3,
+  "MovementPoint": 4,
+  "Families": [
+    69
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Salbatroce",
+    "DescFR": "<b>APPARITION :</b>\nDévoile les Dofus de sa ligne.",
+    "NameEN": "Albatrocious",
+    "DescEN": "<b>APPEARANCE:</b>\nReveals the Dofus on its row.",
+    "NameES": "Albatroz",
+    "DescES": "<b>APARICIÓN:</b>\nDescubre los dofus de su hilera."
+  }
+}

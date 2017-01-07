@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 192,
+  "Name": "shava_shavien",
+  "CardType": 0,
+  "CostAP": 2,
+  "Life": 3,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 4,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Shava Shavien",
+    "DescFR": "<b>MORT :</b> Remonte dans\r\nvotre main <b>OU</b> dans celle\r\nde votre adversaire.",
+    "NameEN": "Comen Goe",
+    "DescEN": "<b>DEATH:</b> Returns to\r\nyour hand <b>OR</b> to\r\nyour opponent's.",
+    "NameES": "Gaty Sakky",
+    "DescES": "<b>MUERTE:</b>\nVuelve a\r\ntu mano <b>O</b> a la del contrincante."
+  }
+}

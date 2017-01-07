@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 415,
+  "Name": "larve_orange",
+  "CardType": 0,
+  "CostAP": 3,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 2,
+  "Families": [
+    16
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Larve Orange",
+    "DescFR": "<b>APPARITION :</b>\nDétruit l'<b>AR</b> d'une invocation.",
+    "NameEN": "Orange Larva",
+    "DescEN": "<b>APPEARANCE:</b>\nDestroys a Summons's <b>AR</b>.",
+    "NameES": "Larva naranja",
+    "DescES": "<b>APARICIÓN:</b>\nDestruye la <b>AR</b> de una invocación."
+  }
+}

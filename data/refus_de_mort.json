@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 328,
+  "Name": "refus_de_mort",
+  "CardType": 1,
+  "CostAP": 0,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 8,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Refus de Mort",
+    "DescFR": "Sacrifiez un de vos Dofus pour piocher 3 cartes.",
+    "NameEN": "Clinging to Life",
+    "DescEN": "Sacrifice one of your Dofus to draw 3 cards.",
+    "NameES": "Rechazo a la Muerte",
+    "DescES": "Sacrificas uno de tus dofus para robar 3 cartas."
+  }
+}

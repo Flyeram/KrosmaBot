@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 502,
+  "Name": "pupuce",
+  "CardType": 0,
+  "CostAP": 2,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    67
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Pupuce",
+    "DescFR": "<b>APPARITION :</b>\nDevient de la famille\r\nde l'invocation ciblée.",
+    "NameEN": "Fleeflee",
+    "DescEN": "<b>APPEARANCE:</b>\nTransforms into the same family\r\nas the targeted Summons.",
+    "NameES": "Pulguita",
+    "DescES": "<b>APARICIÓN:</b>\nEntra en la familia\r\nde la invocación seleccionada."
+  }
+}

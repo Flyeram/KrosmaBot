@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 142,
+  "Name": "lou_niveau_3",
+  "CardType": 0,
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    44
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Lou",
+    "DescFR": "<b>APPARITION :</b>\nFait à nouveau apparaitre tous les prismes.",
+    "NameEN": "Lou",
+    "DescEN": "<b>APPEARANCE:</b>\nMakes the prisms reappear.",
+    "NameES": "Lu",
+    "DescES": "<b>APARICIÓN:</b>\nHace que aparezcan de nuevo todos los prismas."
+  }
+}

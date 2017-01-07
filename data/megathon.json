@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 478,
+  "Name": "megathon",
+  "CardType": 0,
+  "CostAP": 3,
+  "Life": 5,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    60
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Megathon",
+    "DescFR": "<b>CONTRE COUP :</b>\nVotre adversaire pioche 1 carte.",
+    "NameEN": "Decepticod",
+    "DescEN": "<b>COUNTERATTACK:</b>\nYour opponent draws 1 card.",
+    "NameES": "Megatún",
+    "DescES": "<b>VENGANZA:</b>\nTu contrincante roba 1 carta."
+  }
+}

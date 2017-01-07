@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 94,
+  "Name": "initiative",
+  "CardType": 1,
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 1,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Initiative",
+    "DescFR": "Confère <b>initiative</b>\r\nà une invocation.",
+    "NameEN": "First Strike",
+    "DescEN": "Confers <b>FIRST STRIKE</b>\r\non a Summons.",
+    "NameES": "Iniciativa",
+    "DescES": "Otorga <b>iniciativa</b>\r\na una invocación."
+  }
+}

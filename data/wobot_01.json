@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 428,
+  "Name": "wobot_01",
+  "CardType": 0,
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    18
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Wobot 01",
+    "DescFR": "<b>CHEF :</b> +1 <b>AT</b> à vos autres Wabbits.",
+    "NameEN": "Wobot 01",
+    "DescEN": "<b>LEADER:</b> +1 <b>AT</b> to your other Wabbits.",
+    "NameES": "Wobot 01",
+    "DescES": "<b>LÍDER:</b>\nDa +1 <b>AT</b> a tus demás wabbits."
+  }
+}

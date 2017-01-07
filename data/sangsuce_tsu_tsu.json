@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 382,
+  "Name": "sangsuce_tsu_tsu",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    62
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sangsuce Tsu Tsu",
+    "DescFR": "Tous les soins deviennent des dégâts.\r",
+    "NameEN": "Bloodsucker Tsu Tsu",
+    "DescEN": "All heals become damage.\n",
+    "NameES": "Sanguijuela Tsu Tsu",
+    "DescES": "Todas las curas se convierten en daños.\n"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 179,
+  "Name": "grouilleux",
+  "CardType": 0,
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    59
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Grouilleux",
+    "DescFR": "<b>BLESSÉ :</b>\nGagne +1 <b>AT</b> et <b>initiative</b>.",
+    "NameEN": "Grambo",
+    "DescEN": "<b>INJURED:</b>\nGains +1 <b>AT</b> and <b>FIRST STRIKE</b>.",
+    "NameES": "Esbirrios",
+    "DescES": "<b>SANGRANTE:</b>\nGana +1 <b>AT</b> e <b>iniciativa</b>."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 361,
+  "Name": "baraklud",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 3,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Baraklud",
+    "DescFR": "<b>APPARITION :</b>\nSoigne une invocation de 3 <b>PV</b>.",
+    "NameEN": "Baraklud",
+    "DescEN": "<b>APPEARANCE:</b>\nHeals a Summons by 3 <b>HP</b>.",
+    "NameES": "Baraklud",
+    "DescES": "<b>APARICIÓN:</b>\nCura 3 <b>PdV</b> a una invocación."
+  }
+}

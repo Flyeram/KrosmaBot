@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 110,
+  "Name": "black_wabbit",
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    18
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Black Wabbit",
+    "DescFR": "<b>APPARITION :</b>\nInflige 2 dégâts.",
+    "NameEN": "Black Wabbit",
+    "DescEN": "<b>APPEARANCE:</b>\nInflicts 2 damage.",
+    "NameES": "Black wabbit",
+    "DescES": "<b>APARICIÓN:</b>\nInflige 2 de daño."
+  }
+}

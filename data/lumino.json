@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 82,
+  "Name": "lumino",
+  "CardType": 0,
+  "CostAP": 6,
+  "Life": 4,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    60
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Lumino",
+    "DescFR": "<b>FIN DU TOUR :</b>\nInflige 1 dégât au Dofus adverse de sa ligne si vous avez un autre Justicier en jeu.\r",
+    "NameEN": "Lumino",
+    "DescEN": "<b>END OF TURN:</b>\nInflicts 1 damage on the enemy Dofus on his row if you have another Vigilante in play.\n",
+    "NameES": "Lúmino",
+    "DescES": "<b>FIN DEL TURNO:</b>\nInflige 1 de daño a un dofus enemigo de su hilera si tienes otro justiciero en juego.\n"
+  }
+}

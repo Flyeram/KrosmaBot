@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 497,
+  "Name": "arakne_brodeuse",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    12
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Arakne Brodeuse",
+    "DescFR": "<b>APPARITION :</b>\nRemonte dans la main adverse une invocation ayant 2 <b>AT</b> ou moins.",
+    "NameEN": "Arachnee Embroiderer",
+    "DescEN": "<b>APPEARANCE:</b>\nReturn a Summons with 2 <b>AT</b> or less to your opponent's hand.",
+    "NameES": "Arakna tejedora",
+    "DescES": "<b>APARICIÓN:</b>\nUna invocación con 2 <b>AT</b> o menos pasa a la mano del contrincante."
+  }
+}

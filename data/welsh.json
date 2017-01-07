@@ -1,0 +1,25 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 403,
+  "Name": "welsh",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Welsh",
+    "DescFR": "Gagne +1 <b>AT</b> et +1 <b>AR</b> lorsque votre adversaire joue une invocation.",
+    "NameEN": "Welsh",
+    "DescEN": "Gains +1 <b>AT</b> and +1 <b>AR</b> when your opponent plays a Summons.",
+    "NameES": "Welsh",
+    "DescES": "Gana +1 <b>AT</b> y +1 <b>AR</b> cuando tu contrincante utiliza una carta de invocación."
+  }
+}

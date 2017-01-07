@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 86,
+  "Name": "eventrail",
+  "CardType": 1,
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 1,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Éventrail",
+    "DescFR": "Inflige 3 dégâts\r\naux invocations adverses d'une ligne.",
+    "NameEN": "Gutting Gust",
+    "DescEN": "Inflicts 3 dégâts\r\non enemy Summons on a row.",
+    "NameES": "Borrasca",
+    "DescES": "Inflige 3 dégâts\r\na las invocaciones enemigas de una hilera."
+  }
+}

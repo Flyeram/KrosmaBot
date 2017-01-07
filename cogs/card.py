@@ -20,7 +20,7 @@ class CARD:
 				await self.bot.delete_message(msg)
 
 	@card.command(pass_context=True)
-	async def show(self, ctx, *, card_name : str):
+	async def show(self, ctx, lang = "fr",*, card_name : str):
 		""" Link la carte passe en parametre
 		pour les infinites il faut rajouter 1, 2 ou 3 derriere le nom pour les formes"""
 		card_name_lower = card_name.lower();
@@ -31,7 +31,7 @@ class CARD:
 		else:
 			card_path = card_name_replace + ".png";
 		try:
-			r = requests.get("http://vps326325.ovh.net/Cards/" + card_path, stream=True)
+			r = requests.get("http://vps326325.ovh.net/Cards_" + lang + "/" + card_path, stream=True)
 			if r.status_code == 200:
 				with open("./" + card_path, 'wb') as f:
 					r.raw.decode_content = True

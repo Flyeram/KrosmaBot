@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 126,
+  "Name": "mot_de_silence",
+  "CardType": 1,
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 3,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Mot de Silence",
+    "DescFR": "Réduit les invocations au <b>silence</b>.",
+    "NameEN": "Silencing Word",
+    "DescEN": "<b>Silences</b> all Summons.",
+    "NameES": "Palabra de Silencio",
+    "DescES": "Inflige <b>silencio</b> a las invocaciones."
+  }
+}

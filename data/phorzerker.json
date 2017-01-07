@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 314,
+  "Name": "phorzerker",
+  "CardType": 0,
+  "CostAP": 6,
+  "Life": 7,
+  "Attack": 7,
+  "MovementPoint": 2,
+  "Families": [
+    20
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Phorzerker",
+    "DescFR": "<b>APPARITION :</b>\nDéfaussez 1 carte de votre main au hasard.",
+    "NameEN": "Drhellzerker",
+    "DescEN": "<b>APPEARANCE:</b>\nPut 1 random card from your hand in your discard pile.",
+    "NameES": "Perfórserker",
+    "DescES": "<b>APARICIÓN:</b>\nDescartas 1 carta de tu mano al azar."
+  }
+}

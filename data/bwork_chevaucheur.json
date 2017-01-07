@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 200,
+  "Name": "bwork_chevaucheur",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 4,
+  "Families": [
+    50
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Bwork Chevaucheur",
+    "DescFR": "<b>COUP DE GRÂCE :</b>\nChange de ligne.",
+    "NameEN": "Rider Bwork",
+    "DescEN": "<b>FINAL BLOW:</b>\nChanges row.",
+    "NameES": "Bwork cabalgador",
+    "DescES": "<b>GOLPE DE GRACIA:</b>\nCambia de hilera."
+  }
+}

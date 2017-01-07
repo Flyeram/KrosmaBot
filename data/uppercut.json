@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 90,
+  "Name": "uppercut",
+  "CardType": 1,
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 1,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Uppercut",
+    "DescFR": "Inflige 2 dégâts et\r\nrepousse de 1 case.",
+    "NameEN": "Uppercut",
+    "DescEN": "Inflicts 2 dégâts and\r\nrepels by 1 cell.",
+    "NameES": "Uppercut",
+    "DescES": "Inflige 2 dégâts y\r\nempuja 1 casilla."
+  }
+}

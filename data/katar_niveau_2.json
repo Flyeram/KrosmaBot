@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 369,
+  "Name": "katar_niveau_2",
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 3,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Katar",
+    "DescFR": "<b>INITIATIVE</b>\n<b>DÉBUT DU TOUR :</b>\n<b>Attire</b> la première invocation adverse située devant lui.",
+    "NameEN": "Katar",
+    "DescEN": "<b>FIRST STRIKE</b>\n<b>START OF TURN:</b>\n<b>ATTRACTS</b> the first enemy Summons in his row to himself.",
+    "NameES": "Katar",
+    "DescES": "<b>INICIATIVA</b>\n<b>PRINCIPIO DE TUNO:</b>\n<b>Atrae</b> hasta él la primera invocación enemiga de su hilera."
+  }
+}

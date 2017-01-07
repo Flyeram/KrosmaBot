@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 125,
+  "Name": "truche",
+  "CardType": 0,
+  "CostAP": 3,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    26
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Truche ",
+    "DescFR": "Change de ligne\r\nlorsqu’une invocation\r\nadverse entre en jeu.",
+    "NameEN": "Strich ",
+    "DescEN": "Changes row\r\nwhen an enemy Summons\r\ncomes into play.",
+    "NameES": "Pestruz ",
+    "DescES": "Cambia de hilera\r\ncuando una invocación\r\nenemiga entra en juego."
+  }
+}

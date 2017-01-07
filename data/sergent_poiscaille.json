@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 164,
+  "Name": "sergent_poiscaille",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 6,
+  "Attack": 4,
+  "MovementPoint": 2,
+  "Families": [
+    40
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sergent Poiscaille",
+    "DescFR": "",
+    "NameEN": "Sergeant Izungry",
+    "DescEN": "",
+    "NameES": "Pez muertambre",
+    "DescES": ""
+  }
+}

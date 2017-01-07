@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 283,
+  "Name": "pierre_tombale",
+  "CardType": 0,
+  "CostAP": 0,
+  "Life": 3,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 6,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Pierre Tombale",
+    "DescFR": "<b>MUR</b>\n<b>APPARITION :</b>\nDéfausse les 3 premières cartes de votre pioche.",
+    "NameEN": "Tombstone",
+    "DescEN": "<b>WALL</b>\n<b>APPEARANCE:</b>\nDiscard the first 3 cards of your deck.",
+    "NameES": "Lápida",
+    "DescES": "<b>MURO</b>\n<b>APARICIÓN:</b>\nDescarta las 3 primeras cartas de tu mazo."
+  }
+}

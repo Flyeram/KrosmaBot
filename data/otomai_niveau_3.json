@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 205,
+  "Name": "otomai_niveau_3",
+  "CardType": 0,
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    7
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Otomaï",
+    "DescFR": "<b>MORT :</b> Transforme les autres invocations en invocations aléatoires coûtant 5 <b>PA</b>.",
+    "NameEN": "Otomai",
+    "DescEN": "<b>DEATH:</b> Transforms other Summons into random Summons costing 5 <b>AP</b>.",
+    "NameES": "Otomai",
+    "DescES": "<b>MUERTE:</b>\nTransforma a las demás invocaciones en invocaciones aleatorias que cuestan 5 <b>PA</b>."
+  }
+}

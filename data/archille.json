@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 504,
+  "Name": "archille",
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 1,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Archille",
+    "DescFR": "<b>INITIATIVE</b>\r",
+    "NameEN": "Archilles",
+    "DescEN": "<b>FIRST STRIKE</b>\n",
+    "NameES": "Arquiles",
+    "DescES": "<b>INICIATIVA</b>\n"
+  }
+}

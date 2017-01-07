@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 391,
+  "Name": "grainaille",
+  "CardType": 1,
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 10,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Grainaille",
+    "DescFR": "Confère à une invocation autant d'<b>AT</b> et d'<b>AR</b> que de Graines alliés en jeu.",
+    "NameEN": "Grainule",
+    "DescEN": "Confers on a Summons <b>AT</b> and <b>AR</b> equal to the number of allied <b>Seeds</b> in play.",
+    "NameES": "Granolla",
+    "DescES": "Da a una invocación tanto <b>AT</b> y <b>AR</b> como semillas aliadas haya en juego."
+  }
+}

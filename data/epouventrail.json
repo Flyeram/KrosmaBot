@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 107,
+  "Name": "epouventrail",
+  "CardType": 0,
+  "CostAP": 1,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 0,
+  "Families": [
+    57
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Epouventrail",
+    "DescFR": "<b>MUR</b>",
+    "NameEN": "Scareguts",
+    "DescEN": "<b>WALL</b>",
+    "NameES": "Espadantájaro",
+    "DescES": "<b>MURO</b>"
+  }
+}

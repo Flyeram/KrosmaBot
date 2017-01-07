@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 96,
+  "Name": "mitaine",
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 5,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 4,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Mitaine",
+    "DescFR": "<b>APPARITION :</b>\nGagne autant d'<b>AT</b> que vous avez de cartes en main.",
+    "NameEN": "Meethaine",
+    "DescEN": "<b>APPEARANCE:</b>\nFor each card in your hand, gains +1 <b>AT</b>.",
+    "NameES": "Mitania",
+    "DescES": "<b>APARICIÓN:</b>\nGana tanto <b>AT</b> como cartas tengas en mano."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 56,
+  "Name": "punition",
+  "CardType": 1,
+  "CostAP": 8,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 8,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Punition",
+    "DescFR": "Sacrifiez un de vos Dofus pour infliger 3 dégâts à un Dofus adverse.\r",
+    "NameEN": "Punishment",
+    "DescEN": "Sacrifice one of your Dofus, then inflict 3 dégâts on an enemy Dofus.\n",
+    "NameES": "Castigo",
+    "DescES": "Sacrificas uno de tus dofus para infligir 3 dégâts a un dofus enemigo.\n"
+  }
+}

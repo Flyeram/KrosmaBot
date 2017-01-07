@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 85,
+  "Name": "wo_wabbit",
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    18
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Wo Wabbit",
+    "DescFR": "<b>APPARITION :</b>\nDonne  à vos autres Wabbits  +1 <b>AT</b> et +1 <b>AR</b> par Cawotte alliée en jeu.",
+    "NameEN": "Wo Wabbit",
+    "DescEN": "<b>APPEARANCE:</b>\nGives your other Wabbits +1 <b>AT</b> and +1 <b>AR</b> per allied Cawwot in play.",
+    "NameES": "Wabbit wodo",
+    "DescES": "<b>APARICIÓN:</b>\nDa a tus wabbits +1 <b>AT</b> y +1 <b>AR</b> por cada zanahowia aliada en juego."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 39,
+  "Name": "poils_de_jiji",
+  "CardType": 1,
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Poils de Jiji",
+    "DescFR": "Jouez cette carte pour vous en débarasser.",
+    "NameEN": "Jiji Hair",
+    "DescEN": "Play this card to get rid of it.",
+    "NameES": "Pelos de Yiyi",
+    "DescES": "Juega esta carta para deshacerte de ella."
+  }
+}

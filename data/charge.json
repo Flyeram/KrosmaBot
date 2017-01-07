@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 379,
+  "Name": "charge",
+  "CardType": 1,
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 1,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Charge",
+    "DescFR": "L'invocation ciblée\r\n<b>charge</b> de 2 cases.",
+    "NameEN": "Charge",
+    "DescEN": "The targeted Summons\r\n<b>CHARGES</b> 2 cells.",
+    "NameES": "Carga",
+    "DescES": "La invocación seleccionada\r\n<b>carga</b> 2 casillas."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 470,
+  "Name": "bould_erdash",
+  "CardType": 0,
+  "CostAP": 6,
+  "Life": 7,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 8,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Bould Erdash",
+    "DescFR": "<b>GARDE DU CORPS</b>",
+    "NameEN": "Bould Erdash",
+    "DescEN": "<b>BODYGUARD</b>",
+    "NameES": "Doulder Bash",
+    "DescES": "<b>GUARDAESPALDAS</b>"
+  }
+}

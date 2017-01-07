@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 337,
+  "Name": "fleche_d_immolation",
+  "CardType": 1,
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 2,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Flèche d'Immolation",
+    "DescFR": "Inflige 2 dégâts,\r\nsi l’invocation meurt piochez une carte.",
+    "NameEN": "Burning Arrow",
+    "DescEN": "Inflicts 2 dégâts;\r\nif the Summons dies, draw a card.",
+    "NameES": "Flecha de Inmolación",
+    "DescES": "Inflige 2 dégâts.\r\nSi la invocación muere, robas 1 carta. "
+  }
+}

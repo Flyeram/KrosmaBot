@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 561,
+  "Name": "pied_du_sacrieur",
+  "CardType": 1,
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 8,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Pied du Sacrieur",
+    "DescFR": "Inflige 3 dégâts à une invocation et 1 dégât aux autres.",
+    "NameEN": "Sacrier's Foot",
+    "DescEN": "Inflicts 3 dégâts on a Summons and 1 dégât on the others.",
+    "NameES": "Pie de Sacrógrito",
+    "DescES": "Inflige 3 dégâts a una invocación y 1 dégât a las demás."
+  }
+}

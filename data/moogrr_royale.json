@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 367,
+  "Name": "moogrr_royale",
+  "CardType": 0,
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    39
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Moogrr Royale",
+    "DescFR": "<b>CHARGE</b>",
+    "NameEN": "Royal Moogrr",
+    "DescEN": "<b>CHARGE</b>",
+    "NameES": "Muuugresa Real",
+    "DescES": "<b>CARGA</b>"
+  }
+}

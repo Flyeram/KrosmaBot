@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 32,
+  "Name": "rat_devil",
+  "CardType": 0,
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    19
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Rat Devil",
+    "DescFR": "Gagne +2 <b>AR</b> tant que vous avez un Rat Dechant en jeu.",
+    "NameEN": "Uptown Rat",
+    "DescEN": "Gains +2 <b>AR</b> when you have a Feeled Rat in play.",
+    "NameES": "Rata devil",
+    "DescES": "Gana +2\r\n<b>AR</b> mientras tengas otra una silvestrada en juego."
+  }
+}

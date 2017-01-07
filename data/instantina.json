@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 209,
+  "Name": "instantina",
+  "CardType": 0,
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 7,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Instantina",
+    "DescFR": "<b>APPARITION :</b>\nInflige 2 dégâts ou 5 dégâts si vous avez au moins 5 <b>PA</b> dans votre <b>réserve</b>.",
+    "NameEN": "Instantina",
+    "DescEN": "<b>APPEARANCE:</b>\nInflicts 2 damage or 5 damage if you have at least 5 <b>AP</b> in your <b>reserve</b>.",
+    "NameES": "Instantina",
+    "DescES": "<b>APARICIÓN:</b>\nInflige 2 de daño o 5 de daño si tienes al menos 5 <b>PA</b> de tu <b>reserva</b>."
+  }
+}

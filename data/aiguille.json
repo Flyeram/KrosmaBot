@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 505,
+  "Name": "aiguille",
+  "CardType": 1,
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 7,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Aiguille",
+    "DescFR": "Inflige 2 dégâts\r\nou 5 dégâts si vous avez\r\nau moins 5 <b>PA</b> dans\r\nvotre <b>réserve</b>.",
+    "NameEN": "Hand",
+    "DescEN": "Inflicts 2 dégâts\r\nor 5 dégâts if you have\r\nat least 5 <b>AP</b> in\r\nyour <b>reserve</b>.",
+    "NameES": "Aguja",
+    "DescES": "Inflige 2 dégâts\r\no 5 dégâts si tienes\r\nal menos 5 <b>PA</b> en\r\ntu <b>reserva</b>."
+  }
+}

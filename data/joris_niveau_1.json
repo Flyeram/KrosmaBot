@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 288,
+  "Name": "joris_niveau_1",
+  "CardType": 0,
+  "CostAP": 3,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    34
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Joris",
+    "DescFR": "<b>CHEF :</b>\nDonne <b>inciblable</b> à vos\r\nautres invocations.",
+    "NameEN": "Joris",
+    "DescEN": "<b>LEADER:</b>\nGives <b>UNTARGETABLE</b> to your\r\nother Summons.",
+    "NameES": "Joris",
+    "DescES": "<b>APARICIÓN:</b>\nOtorga <b>escurridizo</b> a tus\r\ndemás invocaciones."
+  }
+}

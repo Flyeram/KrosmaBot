@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 518,
+  "Name": "fiole_de_psykoz",
+  "CardType": 1,
+  "CostAP": 6,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 3,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Fiole de Psykoz",
+    "DescFR": "Prenez le contrôle d'une invocation adverse ayant 3 <b>AT</b> ou moins jusqu'à la fin du tour.",
+    "NameEN": "Psykosis Flask",
+    "DescEN": "Take control of an enemy Summons with 3 <b>AT</b> or less, until the end of turn.",
+    "NameES": "Matraz de Sáikoz",
+    "DescES": "Tomas el control de una invocación enemiga que tenga 3 <b>AT</b> o menos hasta el final del turno."
+  }
+}

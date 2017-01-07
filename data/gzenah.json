@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 441,
+  "Name": "gzenah",
+  "CardType": 0,
+  "CostAP": 2,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 1,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Gzenah",
+    "DescFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>\r\npar Iop allié en jeu.",
+    "NameEN": "Gzenah",
+    "DescEN": "<b>APPEARANCE:</b>\nGains +1 <b>AT</b> and +1 <b>AR</b>\r\nper allied Iop in play.",
+    "NameES": "Gzenah",
+    "DescES": "<b>APARICIÓN:</b>\nGana +1 <b>AT</b> y +1 <b>AR</b>\r\npor cada yopuka aliado en juego."
+  }
+}

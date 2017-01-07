@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 482,
+  "Name": "craps",
+  "CardType": 1,
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 4,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Craps",
+    "DescFR": "Inflige 7 dégâts\r\nrépartis aléatoirement\r\nentre tous les Dofus.",
+    "NameEN": "Craps",
+    "DescEN": "Inflicts 7 damage\r\nspread randomly\r\nbetween the Dofus.",
+    "NameES": "Craps",
+    "DescES": "Inflige 7 de daño\r\nrepartido aleatoriamente\r\nentre todos los dofus."
+  }
+}

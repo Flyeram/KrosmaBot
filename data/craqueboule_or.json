@@ -1,0 +1,27 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 412,
+  "Name": "craqueboule_or",
+  "CardType": 0,
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    22
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "Extension": 1,
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Craqueboule Or",
+    "DescFR": "<b>CHEF :</b> Augmente de 1 la <b>résistance</b> de vos autres Craqueleurs.",
+    "NameEN": "Golden Crackrock",
+    "DescEN": "<b>LEADER:</b> Increases your other Cracklers' <b>resistance</b> by 1.",
+    "NameES": "Crujibola dorado",
+    "DescES": "<b>LÍDER:</b> Aumenta en 1 la <b>resistencia</b> de tus demás crujidores."
+  }
+}
