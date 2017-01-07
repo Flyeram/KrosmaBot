@@ -1,4 +1,6 @@
 from discord.ext import commands
+from .Utils.checkUtils import *
+from .Utils.MessageUtils import *
 import random
 
 class TRIVIA:
@@ -11,9 +13,7 @@ class TRIVIA:
 	async def trivia(self, ctx):
 		"""Commands that are not repertoried, and has very differents purposes"""
 		if ctx.invoked_subcommand is None:
-				msg = await self.bot.say('Incorrect trivia subcommand passed.')
-				await asyncio.sleep(3)
-				await self.bot.delete_message(msg)
+			await BotSayError(self.bot, ctx.message.channel, "Incorect trivia subcommand passed")
 
 	@trivia.command()
 	async def test(self):
@@ -21,13 +21,13 @@ class TRIVIA:
 		await self.bot.say("Commande de test disable")
 	
 	
-	@trivia.command()
-	async def roll(self, dice : str):
+	@trivia.command(pass_context=True)
+	async def roll(self, ctx, dice : str):
 		"""Rolls a dice in NdN format."""
 		try:
 			rolls, limit = map(int, dice.split('d'))
 		except Exception:
-			await self.bot.say('Format has to be in NdN!')
+			await BotSayError(self.bot, ctx.message.channel, "Format has to be NdN !")
 			return
 
 		if (limit > 9999):
@@ -41,6 +41,20 @@ class TRIVIA:
 	async def choose(self, *choices : str):
 		"""Chooses between multiple choices."""
 		await self.bot.say(random.choice(choices))
+
+	@trivia.command(pass_context=True)
+	async def talk(self, ctx, destination,*,message : str):
+		try:
+			await self.bot.delete_message(ctx.message)
+		except:
+			pass
+		member = ctx.message.author
+		if not(checkMemberRole(member, "Admin")):
+			return
+		try:
+			await self.bot.send_message(getChannelByName(self.bot, ctx.message.server, destination), message)
+		except:
+			await BotSayError(self.bot, ctx.message.channel, "Message Failed")
 
 def setup(bot):
 	bot.add_cog(TRIVIA(bot))

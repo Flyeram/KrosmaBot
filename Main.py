@@ -1,5 +1,7 @@
 import discord
 from discord.ext import commands
+from cogs.Utils.checkUtils import *
+from cogs.Utils.MessageUtils import *
 import asyncio
 
 initial_extensions = [
@@ -26,7 +28,6 @@ async def on_member_join(member):
 		roles = member.server.roles
 		for i in range(len(roles)):
 			if (roles[i].name == "Krosmage"):
-				print("Krosmagien found")
 				role = roles[i]
 		await bot.add_roles(member, role)
 
@@ -36,7 +37,6 @@ if __name__ == '__main__':
 			bot.load_extension(extension)
 		except Exception as e:
 			print('Failed to load extension {}\n{}: {}'.format(extension, type(e).__name__, e))
-
 
 	bot.run('MjMzOTYyMDkzODE1MTM2MjU2.Ct5nwA.HNZfuT67-jTc8CZqhyRT9F-5XN8')
 

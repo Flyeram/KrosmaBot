@@ -1,4 +1,6 @@
 from discord.ext import commands
+from .Utils.checkUtils import *
+from .Utils.MessageUtils import *
 import requests
 import os
 import copy
@@ -15,9 +17,7 @@ class ROLE:
 	async def role(self, ctx):
 		"""Commands to manage roles"""
 		if ctx.invoked_subcommand is None:
-				msg = await self.bot.say('Incorrect random subcommand passed.')
-				await asyncio.sleep(3)
-				await self.bot.delete_message(msg)
+			await BotSayError(self.bot, ctx.message.channel, "Incorect role subcommand passed")
 
 	@role.command()
 	async def show(self):

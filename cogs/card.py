@@ -1,4 +1,6 @@
 from discord.ext import commands
+from .Utils.checkUtils import *
+from .Utils.MessageUtils import *
 import requests
 import os
 import copy
@@ -15,9 +17,7 @@ class CARD:
 	async def card(self, ctx):
 		"""Command group about cards, for now you can only display cards"""
 		if ctx.invoked_subcommand is None:
-				msg = await self.bot.say('Incorrect card subcommand passed.')
-				await asyncio.sleep(3)
-				await self.bot.delete_message(msg)
+			await BotSayError(self.bot, ctx.message.channel, "Incorect card subcommand passed")
 
 	@card.command(pass_context=True)
 	async def show(self, ctx, lang = "fr",*, card_name : str):
@@ -49,9 +49,7 @@ class CARD:
 			await asyncio.sleep(60)
 			await self.bot.delete_message(msg)
 		except FileNotFoundError:
-			msg = await self.bot.send_message(ctx.message.channel, "Oups cette carte n'existe pas")
-			await asyncio.sleep(3)
-			await self.bot.delete_message(msg)
+			await BotSayError(self.bot, ctx.message.channel, "Oups, this card doesn't exist !")
 		except OSError:
 			pass
 
