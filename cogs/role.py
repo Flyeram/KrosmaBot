@@ -15,7 +15,9 @@ class ROLE:
 	async def role(self, ctx):
 		"""Commands to manage roles"""
 		if ctx.invoked_subcommand is None:
-				await self.bot.say('Incorrect random subcommand passed.')
+				msg = await self.bot.say('Incorrect random subcommand passed.')
+				await asyncio.sleep(3)
+				await self.bot.delete_message(msg)
 
 	@role.command()
 	async def show(self):

@@ -15,7 +15,9 @@ class CARD:
 	async def card(self, ctx):
 		"""Display requested cards"""
 		if ctx.invoked_subcommand is None:
-				await self.bot.say('Incorrect card subcommand passed.')
+				msg = await self.bot.say('Incorrect card subcommand passed.')
+				await asyncio.sleep(3)
+				await self.bot.delete_message(msg)
 
 	@card.command(pass_context=True)
 	async def show(self, ctx, *, card_name : str):

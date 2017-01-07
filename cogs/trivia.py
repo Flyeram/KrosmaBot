@@ -11,7 +11,9 @@ class TRIVIA:
 	async def trivia(self, ctx):
 		"""Useless commands"""
 		if ctx.invoked_subcommand is None:
-				await self.bot.say('Incorrect trivia subcommand passed.')
+				msg = await self.bot.say('Incorrect trivia subcommand passed.')
+				await asyncio.sleep(3)
+				await self.bot.delete_message(msg)
 
 	@trivia.command()
 	async def test(self):
