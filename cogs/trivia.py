@@ -9,7 +9,7 @@ class TRIVIA:
 
 	@commands.group(pass_context=True)
 	async def trivia(self, ctx):
-		"""Useless commands"""
+		"""Commands that are not repertoried, and has very differents purposes"""
 		if ctx.invoked_subcommand is None:
 				msg = await self.bot.say('Incorrect trivia subcommand passed.')
 				await asyncio.sleep(3)

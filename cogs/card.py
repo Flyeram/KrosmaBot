@@ -13,7 +13,7 @@ class CARD:
 
 	@commands.group(pass_context=True)
 	async def card(self, ctx):
-		"""Display requested cards"""
+		"""Command group about cards, for now you can only display cards"""
 		if ctx.invoked_subcommand is None:
 				msg = await self.bot.say('Incorrect card subcommand passed.')
 				await asyncio.sleep(3)
@@ -21,8 +21,12 @@ class CARD:
 
 	@card.command(pass_context=True)
 	async def show(self, ctx, lang = "fr",*, card_name : str):
-		""" Link la carte passe en parametre
-		pour les infinites il faut rajouter 1, 2 ou 3 derriere le nom pour les formes"""
+		""" Link the card named
+		format has to be : "?card show langue card_name"
+		To display infinites cards you have to add the number 1, 2, 3 after the name and a space
+		exemples :
+		?card show en tronknyde
+		?card show fr amalia 3"""
 		card_name_lower = card_name.lower();
 		card_name_replace = card_name_lower.replace(" ", "_")
 		test_infinite = card_name_replace[-2:]
