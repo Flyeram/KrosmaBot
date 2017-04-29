@@ -24,6 +24,9 @@
     <Compile Include="cogs\card.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="cogs\lk.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="cogs\Utils\checkUtils.py">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="cogs\Utils\MessageUtils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cogs\Utils\miscUtils.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="cogs\Utils\__init__.py" />

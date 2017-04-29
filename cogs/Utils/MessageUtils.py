@@ -3,7 +3,7 @@ from discord.ext import commands
 import asyncio
 
 async def BotSayError(bot, channel, message):
-	BotSay(bot, channel, message, 3)
+	await BotSay(bot, channel, message, 3)
 
 async def BotSay(bot, channel, message, time):
 	msg = await bot.send_message(channel, message)

@@ -5,7 +5,7 @@ from pprint import pprint
 from unidecode import unidecode
 
 DATA_PATH = "./data/"
-CARD_PATH = "./Cards_0.8.8_es/"
+CARD_PATH = "./Cards_1.1.2_en/"
 
 
 def format_km(str):
@@ -56,4 +56,4 @@ def rename(lang_from, lang_to):
 	print("FINISHED")
 
 if __name__ == '__main__':
-	rename("FR", "ES")
+	rename("FR", "EN")
