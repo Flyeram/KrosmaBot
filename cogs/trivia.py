@@ -20,6 +20,10 @@ class TRIVIA:
 		""" Commande pour quand il y a besoin de tester des trucs, inutiles donc pour vous desole"""
 		await self.bot.say("Commande de test disable")
 	
+	@trivia.command(pass_context=True)
+	async def link(self, ctx):
+		"""Commande which display the link to the discord"""
+		await BotSay(self.bot, ctx.message.channel, "Le lien vers le discord est : https://discordapp.com/invite/UbFaSAB", 60)
 	
 	@trivia.command(pass_context=True)
 	async def roll(self, ctx, dice : str):
