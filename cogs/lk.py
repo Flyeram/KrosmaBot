@@ -15,7 +15,7 @@ class LK:
 	def __init__(self, bot):
 		self.bot = bot
 		self.links = {}
-		self.path = os.getcwd() + "\\res\\lk.pkl"
+		self.path = os.getcwd() + "/res/lk.pkl"
 		self.links = load_obj(self.path)
 
 	@commands.group(pass_context=True)
