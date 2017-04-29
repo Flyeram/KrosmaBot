@@ -40,7 +40,7 @@ class LK:
 		except:
 			pass
 
-		if not(checkMembersRoles(ctx.message.author, ['Admin', 'CM', 'Modérateur'])):
+		if not(checkMembersRoles(ctx.message.author, ['Admin', 'CM', 'Moderateur'])):
 			await BotSayError(self.bot, ctx.message.channel, "You do not have the permission to use this command")
 			return
 		if (name == None or str == None):
@@ -65,7 +65,7 @@ class LK:
 		except:
 			pass
 
-		if not(checkMembersRoles(ctx.message.author, ['Admin', 'CM', 'Modérateur'])):
+		if not(checkMembersRoles(ctx.message.author, ['Admin', 'CM', 'Moderateur'])):
 			await BotSayError(self.bot, ctx.message.channel, "You do not have the permission to use this command")
 			return
 		if (name == None):
