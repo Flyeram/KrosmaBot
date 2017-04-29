@@ -40,7 +40,7 @@ if __name__ == '__main__':
 			print('Failed to load extension {}\n{}: {}'.format(extension, type(e).__name__, e))
 
 	#Beta run
-	bot.run('MzA3Nzk1OTU3ODgwNDU1MTcw.C-XiFw.oPT_C9fIdhGLzsc2X6mi529ojSs')
+	#bot.run('MzA3Nzk1OTU3ODgwNDU1MTcw.C-XiFw.oPT_C9fIdhGLzsc2X6mi529ojSs')
 	#Official run
-	#bot.run('MjMzOTYyMDkzODE1MTM2MjU2.Ct5nwA.HNZfuT67-jTc8CZqhyRT9F-5XN8')
+	bot.run('MjMzOTYyMDkzODE1MTM2MjU2.Ct5nwA.HNZfuT67-jTc8CZqhyRT9F-5XN8')
 
