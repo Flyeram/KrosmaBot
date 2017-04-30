@@ -2,7 +2,6 @@ from discord.ext import commands
 from .Utils.checkUtils import *
 from .Utils.MessageUtils import *
 import random
-from Main import RELEASE
 
 class TRIVIA:
 	"""Commands you don't know where they belong"""

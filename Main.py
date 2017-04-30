@@ -4,6 +4,8 @@ from cogs.Utils.checkUtils import *
 from cogs.Utils.MessageUtils import *
 import asyncio
 import sys
+import json
+import os
 
 initial_extensions = [
 	'cogs.card',
@@ -42,10 +44,14 @@ if __name__ == '__main__':
 
 	if (sys.argv[1] == "debug"):
 		#Beta run
+		with open(os.getcwd() + "\\res\\settings.json", encoding="utf_8_sig") as data_file:
+			data = json.load(data_file)
 		RELEASE = False
-		bot.run('MzA3Nzk1OTU3ODgwNDU1MTcw.C-XiFw.oPT_C9fIdhGLzsc2X6mi529ojSs')
+		bot.run(data["DebugToken"])
 	else:
 		#Official run
+		with open(os.getcwd() + "/res/settings.json", encoding="utf_8_sig") as data_file:
+			data = json.load(data_file)
 		RELEASE = True
-		bot.run('MjMzOTYyMDkzODE1MTM2MjU2.Ct5nwA.HNZfuT67-jTc8CZqhyRT9F-5XN8')
+		bot.run(data["ReleaseToken"])
 

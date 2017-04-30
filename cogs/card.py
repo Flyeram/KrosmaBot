@@ -35,7 +35,11 @@ class CARD:
 		else:
 			card_path = card_name_replace + ".png";
 		try:
-			r = requests.get("http://vps326325.ovh.net/Cards_" + lang + "/" + card_path, stream=True)
+			partA = "vps"
+			partB = "326"
+			partC = "325"
+			partD = ".ovh.net/"
+			r = requests.get("http://" + partA + partB + partC + partD + "Cards_" + lang + "/" + card_path, stream=True)
 			if r.status_code == 200:
 				with open("./" + card_path, 'wb') as f:
 					r.raw.decode_content = True

@@ -8,14 +8,22 @@ import copy
 import shutil
 import asyncio
 import pickle
+from Main import RELEASE
 
 class LK:
 	"""Utilities that manages roles."""
 
 	def __init__(self, bot):
+		global RELEASE
 		self.bot = bot
 		self.links = {}
-		self.path = os.getcwd() + "/res/lk.pkl"
+		self.release = RELEASE
+		if (self.release):
+			self.valid_role = ['Admin', 'CM', 'Moderateur']
+			self.path = os.getcwd() + "/res/lk.pkl"
+		else:
+			self.valid_role = ['Admin', 'test']
+			self.path = os.getcwd() + "\\res\\lk.pkl"
 		self.links = load_obj(self.path)
 
 	@commands.group(pass_context=True)
@@ -40,7 +48,7 @@ class LK:
 		except:
 			pass
 
-		if not(checkMembersRoles(ctx.message.author, ['Admin', 'CM', 'Moderateur'])):
+		if not(checkMembersRoles(ctx.message.author, self.valid_role)):
 			await BotSayError(self.bot, ctx.message.channel, "You do not have the permission to use this command")
 			return
 		if (name == None or str == None):
@@ -65,7 +73,7 @@ class LK:
 		except:
 			pass
 
-		if not(checkMembersRoles(ctx.message.author, ['Admin', 'CM', 'Moderateur'])):
+		if not(checkMembersRoles(ctx.message.author, self.valid_role)):
 			await BotSayError(self.bot, ctx.message.channel, "You do not have the permission to use this command")
 			return
 		if (name == None):
