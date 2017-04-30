@@ -6,7 +6,7 @@
     <ProjectGuid>{c4dacd60-d9c9-4214-b674-826d1d1c3f2a}</ProjectGuid>
     <ProjectHome />
     <StartupFile>Main.py</StartupFile>
-    <SearchPath>C:\Users\Flyeram\Documents\KrosmaBot\</SearchPath>
+    <SearchPath>C:\Users\Flyeram\Documents\krosmabot\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
