@@ -36,22 +36,24 @@ async def on_member_join(member):
 		await bot.add_roles(member, role)
 
 if __name__ == '__main__':
-	for extension in initial_extensions:
-		try:
-			bot.load_extension(extension)
-		except Exception as e:
-			print('Failed to load extension {}\n{}: {}'.format(extension, type(e).__name__, e))
 
 	if (sys.argv[1] == "debug"):
 		#Beta run
 		with open(os.getcwd() + "\\res\\settings.json", encoding="utf_8_sig") as data_file:
 			data = json.load(data_file)
 		RELEASE = False
-		bot.run(data["DebugToken"])
+		token = data["DebugToken"]
 	else:
 		#Official run
 		with open(os.getcwd() + "/res/settings.json", encoding="utf_8_sig") as data_file:
 			data = json.load(data_file)
 		RELEASE = True
-		bot.run(data["ReleaseToken"])
+		token = data["ReleaseToken"]
+
+	for extension in initial_extensions:
+		try:
+			bot.load_extension(extension)
+		except Exception as e:
+			print('Failed to load extension {}\n{}: {}'.format(extension, type(e).__name__, e))
+	bot.run(token)
 
