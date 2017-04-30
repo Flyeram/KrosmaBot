@@ -16,7 +16,11 @@ initial_extensions = [
 
 description = ''' A bot for the Krosmaga Discord Server. Nice features incoming !'''
 bot = commands.Bot(command_prefix='?', description=description)
-RELEASE = False
+if (sys.argv[1] == "debug"):
+	RELEASE = False
+else:
+	RELEASE = True
+
 
 @bot.event
 async def on_ready():
@@ -37,17 +41,17 @@ async def on_member_join(member):
 
 if __name__ == '__main__':
 
-	if (sys.argv[1] == "debug"):
+	RELEASE = False
+
+	if ():
 		#Beta run
 		with open(os.getcwd() + "\\res\\settings.json", encoding="utf_8_sig") as data_file:
 			data = json.load(data_file)
-		RELEASE = False
 		token = data["DebugToken"]
 	else:
 		#Official run
 		with open(os.getcwd() + "/res/settings.json", encoding="utf_8_sig") as data_file:
 			data = json.load(data_file)
-		RELEASE = True
 		token = data["ReleaseToken"]
 
 	for extension in initial_extensions:
