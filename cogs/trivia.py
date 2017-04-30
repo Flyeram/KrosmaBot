@@ -10,17 +10,17 @@ class TRIVIA:
 		self.bot = bot
 
 	@commands.group(pass_context=True)
-	async def trivia(self, ctx):
+	async def tr(self, ctx):
 		"""Commands that are not repertoried, and has very differents purposes"""
 		if ctx.invoked_subcommand is None:
 			await BotSayError(self.bot, ctx.message.channel, "Incorect trivia subcommand passed")
 
-	@trivia.command()
+	@tr.command()
 	async def test(self):
 		""" Commande pour quand il y a besoin de tester des trucs, inutiles donc pour vous desole"""
 		await self.bot.say("Commande de test disable")
 	
-	@trivia.command(pass_context=True)
+	@tr.command(pass_context=True)
 	async def roll(self, ctx, dice : str):
 		"""Rolls a dice in NdN format."""
 		try:
@@ -36,12 +36,12 @@ class TRIVIA:
 		result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
 		await self.bot.say(result)
 
-	@trivia.command(description='For when you wanna settle the score some other way')
+	@tr.command(description='For when you wanna settle the score some other way')
 	async def choose(self, *choices : str):
 		"""Chooses between multiple choices."""
 		await self.bot.say(random.choice(choices))
 
-	@trivia.command(pass_context=True)
+	@tr.command(pass_context=True)
 	async def talk(self, ctx, destination,*,message : str):
 		try:
 			await self.bot.delete_message(ctx.message)

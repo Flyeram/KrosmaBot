@@ -88,6 +88,32 @@ class LK:
 		await BotSayError(self.bot, ctx.message.channel, "LK [" + name + "] was successfully removed")
 
 	@lk.command(pass_context = True)
+	async def rename(self, ctx, name = None, rename = None):
+		"""Command that removes a LK [name] with [rename]"""
+		try:
+			await self.bot.delete_message(ctx.message)
+		except:
+			pass
+
+		if not(checkMembersRoles(ctx.message.author, self.valid_role)):
+			await BotSayError(self.bot, ctx.message.channel, "You do not have the permission to use this command")
+			return
+		if (name == None or rename == None):
+			await BotSayError(self.bot, ctx.message.channel, "Missing argument for this command")
+			return
+		if not(name in self.links):
+			await BotSayError(self.bot, ctx.message.channel, "LK with name [" + name + "] doesn't exist")
+			return
+		if (rename in self.links):
+			await BotSayError(self.bot, ctx.message.channel, "LK with name [" + name + "] already exist")
+			return
+
+		self.links[rename] = self.links[name]
+		del self.links[name]
+		save_obj(self.links, self.path)
+		await BotSayError(self.bot, ctx.message.channel, "LK [" + name + "] was successfully renamed [" + rename + "]")
+
+	@lk.command(pass_context = True)
 	async def show(self, ctx):
 		"""Command that shows all LK available"""
 		try:

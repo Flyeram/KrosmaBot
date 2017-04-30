@@ -6,6 +6,7 @@ import asyncio
 import sys
 import json
 import os
+import cogs.lk
 
 initial_extensions = [
 	'cogs.card',
@@ -20,7 +21,6 @@ if (sys.argv[1] == "debug"):
 	RELEASE = False
 else:
 	RELEASE = True
-
 
 @bot.event
 async def on_ready():
@@ -39,11 +39,17 @@ async def on_member_join(member):
 				role = roles[i]
 		await bot.add_roles(member, role)
 
+@bot.command(pass_context=True)
+async def bracket(ctx):
+	ctx.message.content = "?lk bracket"
+	await bot.process_commands(ctx.message)
+	
+
 if __name__ == '__main__':
 
 	RELEASE = False
 
-	if ():
+	if (sys.argv[1] == "debug"):
 		#Beta run
 		with open(os.getcwd() + "\\res\\settings.json", encoding="utf_8_sig") as data_file:
 			data = json.load(data_file)
